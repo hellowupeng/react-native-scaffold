@@ -5233,10 +5233,10 @@ react-is@^16.8.1, react-is@^16.8.3, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.5.tgz#c54ac229dd66b5afe0de5acbe47647c3da692ff8"
   integrity sha512-sudt2uq5P/2TznPV4Wtdi+Lnq3yaYW8LfvPKLM9BKD8jJNBkxMVyB0C9/GmVhLw7Jbdmndk/73n7XQGeN9A3QQ==
 
-react-native-simple-layout@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/react-native-simple-layout/-/react-native-simple-layout-1.0.2.tgz#1cc1267c288bc2e98c7f77ad055cbe7cde53b116"
-  integrity sha512-4a0u70xh3ZBsunq17ctC//102h6T54dSy2Ly+E5MjnclsM8g9/pR0rg7IOsklId+h3KKa1mJemdwAYokho4P4g==
+react-native-simple-layout@1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/react-native-simple-layout/-/react-native-simple-layout-1.0.3.tgz#c6d0f8e340c97b470ba6e3325efd4b06a90cabfc"
+  integrity sha512-2KWAvTKJ9ZxpPNEecjZZQLQiJ+1BwG9GLRdKFVFaUITNU2kzPun7hlhj92lFfC5Q+ARXXXaVWQT1b4jcXPO+tQ==
 
 react-native@0.59.1:
   version "0.59.1"
