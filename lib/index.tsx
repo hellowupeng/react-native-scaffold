@@ -1,6 +1,6 @@
 import React from 'react';
 import { Column } from 'react-native-simple-layout';
-import { Text, ViewBase } from 'react-native';
+import { ViewBase } from 'react-native';
 import styles from './index.style';
 
 interface ScaffoldProps extends ViewBase {
