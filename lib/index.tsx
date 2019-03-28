@@ -8,10 +8,26 @@ interface ScaffoldProps extends ViewBase {
   style?;
 }
 
-export default function Scaffold(props: ScaffoldProps) {
-  return (
-    <Column {...props} style={[styles.scaffold, props.style]}>
-      {props.children}
-    </Column>
-  );
+interface Action {
+  showModal(component);
+  hideModel();
+}
+
+export default class Scaffold extends React.Component<ScaffoldProps, {}>
+  implements Action {
+  showModal(component: any) {
+    throw new Error('Method not implemented.');
+  }
+
+  hideModel() {
+    throw new Error('Method not implemented.');
+  }
+
+  render() {
+    return (
+      <Column {...this.props} style={[styles.scaffold, this.props.style]}>
+        {this.props.children}
+      </Column>
+    );
+  }
 }
